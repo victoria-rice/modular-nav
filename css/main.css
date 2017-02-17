@@ -32,11 +32,12 @@ h1 {
 }
 
 nav {
-  text-align: left;
+  text-align: center;
 }
 
 li {
   display: inline;
+  text-align: center;
 }
 
 a {
