@@ -5,6 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
   color: #2f2d13;
@@ -27,16 +31,18 @@ h1 {
   text-align: center;
 }
 
+nav {
+  text-align: left;
+}
+
 li {
   display: inline;
 }
 
 a {
-  color: white;
   text-decoration: none;
   padding: .2em .5em .3em;
   border-radius: 3px;
-  font-size: 1.125rem;
   color: #0074d9;
   display: inline-block;
 }
